@@ -1,0 +1,74 @@
+html, body {
+    overflow-x: hidden;
+}
+div, 
+section, 
+nav, 
+ul, 
+li, 
+article, 
+main, 
+footer, 
+aside {
+    overflow: hidden;
+}
+* {
+    font-family: roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+}
+header {
+    display: flex;
+    justify-content: end;
+}
+.container {
+    display: flex;
+    width: 95vw;
+    height: auto;
+}
+header .container {
+    justify-content: end;
+    align-items: center;
+}
+.menu-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.menu-header li {
+    margin: 0 0 0 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #000;
+}
+.menu-header .apps {
+    align-content: center;
+    border-radius: 50%
+}
+.apps img {
+    padding: 10px 10px 8px 10px;
+}
+ul .login {
+    background-color: #0b57d0;
+    color: #f5f5f5;
+    padding: 10px 14px;
+    border-radius: 25px;
+    font-size: 15px;
+    margin: 10px ;
+}
+.images:hover {
+    text-decoration: underline;
+}
+.email:hover {
+    text-decoration: underline;
+}
+.apps:hover {
+    background-color: #f0f0f0;
+}
+.login:hover {
+    box-shadow: 1px 1px 4px #252525;
+}
