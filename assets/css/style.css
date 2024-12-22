@@ -72,10 +72,10 @@ ul .login {
 .login:hover {
     box-shadow: 1px 1px 4px #252525;
 }
-section .container {
+#image-banner .container {
     justify-content: center;
 }
-section .container img {
+#image-banner .container img {
     width: 375px;
     height: 150px;
     margin: 0 15px;
@@ -94,4 +94,7 @@ section .container img {
 .circle i {
     margin:0 0 1px 1px;
     cursor: pointer;
+}
+#search-buttom {
+    
 }
