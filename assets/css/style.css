@@ -72,3 +72,26 @@ ul .login {
 .login:hover {
     box-shadow: 1px 1px 4px #252525;
 }
+section .container {
+    justify-content: center;
+}
+section .container img {
+    width: 375px;
+    height: 150px;
+    margin: 0 15px;
+}
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    align-self: center;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    align-self: flex-end;
+}
+.circle i {
+    margin:0 0 1px 1px;
+    cursor: pointer;
+}
