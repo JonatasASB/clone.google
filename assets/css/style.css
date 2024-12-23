@@ -100,12 +100,6 @@ ul .login {
     justify-content: center;
     align-items: center;
 }
-.buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
 .width-flex-1 {
     display: flex;
     flex:3;
@@ -170,6 +164,9 @@ ul .login {
 .camera img {
     width: 18px;
 }
+.buttons {
+    padding: 5px;
+}
 .buttons input {
     background-color: #f8f9fa;
     font-size: 14px;
@@ -178,6 +175,8 @@ ul .login {
     margin: 0 15px;
     border-radius:2px ;
     font-family: Arial, Helvetica, sans-serif;
+    flex:2;
+    border: 1px solid #f8f9fa;
 }
 .buttons input:focus{
     border: 1px solid #4285f4;
@@ -189,4 +188,9 @@ ul .login {
     border: 1px solid #dadce0;
     color: #202124;
     cursor: pointer;
+}
+#white-area {
+    height: 120px;
+    background-color: #fff;
+    width: 100%;
 }
