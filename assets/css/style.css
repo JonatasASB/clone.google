@@ -223,4 +223,8 @@ footer .container {
     font-size: 15px;
     font-weight: 300;
     padding: 10px;
+    cursor: pointer;
+}
+.info-footer:hover {
+    text-decoration: underline;
 }
