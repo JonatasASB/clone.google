@@ -95,12 +95,15 @@ ul .login {
     margin:0 0 1px 1px;
     cursor: pointer;
 }
-#search-buttom {
-    display: flex;
-    flex-direction: column;
-}
 #search-buttom .container {
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
 }
 .width-flex-1 {
@@ -166,4 +169,24 @@ ul .login {
 }
 .camera img {
     width: 18px;
+}
+.buttons input {
+    background-color: #f8f9fa;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 7px;
+    margin: 0 15px;
+    border-radius:2px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttons input:focus{
+    border: 1px solid #4285f4;
+    outline: none;
+}
+.buttons input:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+    cursor: pointer;
 }
