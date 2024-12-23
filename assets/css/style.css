@@ -193,6 +193,7 @@ ul .login {
     height: 140px;
     background-color: #fff;
     width: 100%;
+    flex-grow: 1;
 }
 footer {
     background-color: #f2f2f2;
@@ -218,6 +219,7 @@ footer .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .info-footer {
     font-size: 15px;
@@ -227,4 +229,51 @@ footer .container {
 }
 .info-footer:hover {
     text-decoration: underline;
+}
+@media (max-width:920px) {
+    .search {
+        width: 60%;
+    }
+}
+@media (max-width:757px) {
+    .search {
+        width: 70%;
+    }
+    .divisao {
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:600px) {
+    .search {
+        width: 80%;
+    }
+}
+@media (max-width:500px) {
+    .search {
+        width: 90%;
+    }
+    #image-banner .container img {
+    width: 65%;
+    }
+}
+@media (max-width:453px) {
+    .width-flex-1-1 {
+        flex: 2;
+    }
+    .buttons {
+        text-align: center;
+    }
+    .buttons input {
+        margin: 10px 0;
+    }
+    .circle {
+        display: none;
+    }
+    #image-banner .container img {
+        width: 100%;
+    }
+    .brasil {
+        text-align: center;
+    }
 }
