@@ -190,7 +190,37 @@ ul .login {
     cursor: pointer;
 }
 #white-area {
-    height: 120px;
+    height: 140px;
     background-color: #fff;
     width: 100%;
+}
+footer {
+    background-color: #f2f2f2;
+}
+footer .container {
+    flex-direction: column;
+    width: 100vw;
+    
+}
+.container .brasil {
+    padding: 10px;
+    border-bottom: 1px solid #dadce0;
+    flex-wrap: wrap;
+}
+.divisao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+}
+.footer-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-footer {
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px;
 }
